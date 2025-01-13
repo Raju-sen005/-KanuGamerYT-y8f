@@ -1,0 +1,47 @@
+/* .audiowide-regular{
+  font-family: "Audiowide", serif;
+  font-weight: 400;
+  font-style: normal;
+  } */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+img {
+  height: 800px;
+  width: 107%;
+  position: fixed;
+  left: -30px;
+  top: -40px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  /* background: url(bg2.png)no-repeat center center fixed ; */
+  /* background-size: cover; */
+}
+nav {
+  display: flex;
+}
+ul {
+  display: flex;
+  list-style: none;
+  position: relative;
+  left: 465px;
+}
+li a {
+  display: inline;
+  margin: 25px;
+  color: rgb(0 135 255 / 55%);
+  /* color: rgb(255 9 0); */
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
