@@ -1,3 +1,3 @@
-// setInterval(function () {
-//   alert("Subscribe the our channel");
-// }, 5000);
+document.getElementById("Raj").addEventListener("click",function(){
+    alert("Thanks for subscribe our channel")
+})
